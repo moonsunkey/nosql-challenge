@@ -30,12 +30,11 @@ The `NoSQL_analysis_starter.ipynb` notebook facilitated the exploratory analysis
 
 ### Key Questions and Operations
 - Converted non-numeric `RatingValue` fields to nulls during database setup before converting these ratings to integers.
-- Displayed the count of documents, the first document, and converted query results to a Pandas DataFrame for the following questions:
+- Experimented using 2 functions to display the common required output for some questions. Displayed the count of documents, the first document, and converted query results to a Pandas DataFrame for the following questions:
   - Which establishments have a hygiene score of 20?
   - Which establishments in London have a `RatingValue` of at least 4?
   - Identified the top 5 establishments with a `RatingValue` of 5, sorted by the lowest hygiene score and proximity to the newly added "Penang Flavours".
-
-- Employed the aggregation framework to determine the number of establishments in each Local Authority area with a hygiene score of 0, sorted the results from highest to lowest, and printed the top ten Local Authority areas.
+  - Employed the aggregation framework to determine the number of establishments in each Local Authority area with a hygiene score of 0, sorted the results from highest to lowest, and printed the top ten Local Authority areas.
 
 
 
